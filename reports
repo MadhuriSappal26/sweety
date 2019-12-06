@@ -1,0 +1,994 @@
+[
+  {
+    "id": "login-feature",
+    "uri": "features/prodfeature/Login.feature",
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2214582000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;user-clicks-on-login-button-without-entering-details",
+        "keyword": "Scenario Outline",
+        "name": "User clicks on login button without entering details",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User clicks on Login button",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402237000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "System validates with message as \"Invalid email or password.\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93259000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560258000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;user-enters-valid-email-id-and-invalid-password;;2",
+        "keyword": "Scenario Outline",
+        "name": "User enters valid email id and invalid password",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enter email id As \"abc@gmail.com\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127005000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User enter Password As \"hello\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40066000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User click on Login button",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402262000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "System validate with message as \"Invalid email or password.\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28360000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627869000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;user-enters-valid-email-id-and-invalid-password;;3",
+        "keyword": "Scenario Outline",
+        "name": "User enters valid email id and invalid password",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enter email id As \"abc@gmail.com\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99182000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User enter Password As \"\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24640000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User click on Login button",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390058000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "System validate with message as \"Invalid email or password.\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26881000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622983000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;user-clicks-on-levels-menu-without-logging-in",
+        "keyword": "Scenario Outline",
+        "name": "User clicks on Levels menu without logging in",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User Clicks Levels menu",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83590000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User see the message as \"You need to sign in or sign up before continuing.\"",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28526000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739408000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;user-clicks-on-reports-menu-without-logging-in",
+        "keyword": "Scenario Outline",
+        "name": "User clicks on Reports menu without logging in",
+        "description": "",
+        "line": 26,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User Clicks Reports menu",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79886000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User sees the message as \"You need to sign in or sign up before continuing.\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19077000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to Login Page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787739000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;visit-the-login-page",
+        "keyword": "Scenario",
+        "name": "Visit the Login Page",
+        "description": "",
+        "line": 31,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I submit username and password",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174004000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on Login button",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661858000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the message as \"Signed in successfully.\"",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/Login_Steps.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22017000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menulevel-feature",
+    "uri": "features/prodfeature/MenuLevel.feature",
+    "keyword": "Feature",
+    "name": "MenuLevel Feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5057241000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5052289000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;validate-entry-message",
+        "keyword": "Scenario Outline",
+        "name": "Validate Entry Message",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "User validate message as \"Only 4 entries allowed per day\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21723000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5051126000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5053769000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;add-valid-new-level-entry;;2",
+        "keyword": "Scenario Outline",
+        "name": "Add Valid New Level Entry",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enters level entry as 5",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6048256000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Click on Submit button",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673195000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "validate  successful message as \"Entry was successfully created.\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25928000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5057005000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5052636000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;add-valid-new-level-entry;;3",
+        "keyword": "Scenario Outline",
+        "name": "Add Valid New Level Entry",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enters level entry as -50",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6059391000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Click on Submit button",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622295000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "validate  successful message as \"Entry was successfully created.\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32377000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5057843000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5047007000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;add-valid-new-level-entry;;4",
+        "keyword": "Scenario Outline",
+        "name": "Add Valid New Level Entry",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enters level entry as 100",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6056112000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Click on Submit button",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668788000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "validate  successful message as \"Entry was successfully created.\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31911000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5054499000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5047664000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;add-valid-new-level-entry;;5",
+        "keyword": "Scenario Outline",
+        "name": "Add Valid New Level Entry",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User enters level entry as 50000",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6059313000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Click on Submit button",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644076000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "validate  successful message as \"Entry was successfully created.\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30258000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User Clicks on Levels menu",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5061453000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User Clicks on Add New button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5051106000
+            }
+          }
+        ]
+      },
+      {
+        "id": "menulevel-feature;add-invalid-new-level-entry;;2",
+        "keyword": "Scenario Outline",
+        "name": "Add Invalid New Level Entry",
+        "description": "",
+        "line": 31,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "User entered level entry as \"%^a56\"",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6066721000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Clicks on Submit button",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746566000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "validate  unsuccessful message as \"Maximum entries reached for this date.\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/Level_Steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26197000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

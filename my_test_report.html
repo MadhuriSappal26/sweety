@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>My Test Results</title><link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+<link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.8/css/report.builder.min.css" rel="stylesheet">
+</head><body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><header class="brown lighten-5">
+<div class="row brown lighten-1">
+<div class="col m6 hide-on-small-only">
+<h5 class="truncate white-text tooltipped" data-tooltip="My Test Results">My Test Results</h5>
+</div><div class="col m6 s12 brown lighten-1">
+<ul class="tabs brown lighten-1 row" style="overflow-x: hidden">
+<li class="tab col s3">
+<a class="brown lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div id="g0f0s0" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>User clicks on login button without entering details (2.710s)</h5>
+features/prodfeature/Login.feature:6
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (2.215s)</li>
+<li class="collection-item step passed">
+<b>When </b> User clicks on Login button (0.402s)</li>
+<li class="collection-item step passed">
+<b>Then </b> System validates with message as &quot;Invalid email or password.&quot; (0.093s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s1" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>User enters valid email id and invalid password (1.158s)</h5>
+features/prodfeature/Login.feature:18
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (0.560s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enter email id As &quot;abc@gmail.com&quot; (0.127s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enter Password As &quot;hello&quot; (0.040s)</li>
+<li class="collection-item step passed">
+<b>When </b> User click on Login button (0.402s)</li>
+<li class="collection-item step passed">
+<b>Then </b> System validate with message as &quot;Invalid email or password.&quot; (0.028s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s2" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>User enters valid email id and invalid password (1.169s)</h5>
+features/prodfeature/Login.feature:19
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (0.628s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enter email id As &quot;abc@gmail.com&quot; (0.099s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enter Password As &quot;&quot; (0.025s)</li>
+<li class="collection-item step passed">
+<b>When </b> User click on Login button (0.390s)</li>
+<li class="collection-item step passed">
+<b>Then </b> System validate with message as &quot;Invalid email or password.&quot; (0.027s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s3" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>User clicks on Levels menu without logging in (0.735s)</h5>
+features/prodfeature/Login.feature:22
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (0.623s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks Levels menu (0.084s)</li>
+<li class="collection-item step passed">
+<b>Then </b> User see the message as &quot;You need to sign in or sign up before continuing.&quot; (0.029s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s4" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>User clicks on Reports menu without logging in (0.838s)</h5>
+features/prodfeature/Login.feature:26
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (0.739s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks Reports menu (0.080s)</li>
+<li class="collection-item step passed">
+<b>Then </b> User sees the message as &quot;You need to sign in or sign up before continuing.&quot; (0.019s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s5" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Visit the Login Page (1.646s)</h5>
+features/prodfeature/Login.feature:31
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User navigates to Login Page (Background) (0.788s)</li>
+<li class="collection-item step passed">
+<b>When </b> I submit username and password (0.174s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on Login button (0.662s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I see the message as &quot;Signed in successfully.&quot; (0.022s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s0" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Validate Entry Message (10.131s)</h5>
+features/prodfeature/MenuLevel.feature:7
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.057s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.052s)</li>
+<li class="collection-item step passed">
+<b>Then </b> User validate message as &quot;Only 4 entries allowed per day&quot; (0.022s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s1" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Add Valid New Level Entry (16.852s)</h5>
+features/prodfeature/MenuLevel.feature:17
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.051s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.054s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enters level entry as 5 (6.048s)</li>
+<li class="collection-item step passed">
+<b>When </b> Click on Submit button (0.673s)</li>
+<li class="collection-item step passed">
+<b>Then </b> validatesuccessful message as &quot;Entry was successfully created.&quot; (0.026s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s2" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Add Valid New Level Entry (16.824s)</h5>
+features/prodfeature/MenuLevel.feature:18
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.057s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.053s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enters level entry as -50 (6.059s)</li>
+<li class="collection-item step passed">
+<b>When </b> Click on Submit button (0.622s)</li>
+<li class="collection-item step passed">
+<b>Then </b> validatesuccessful message as &quot;Entry was successfully created.&quot; (0.032s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s3" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Add Valid New Level Entry (16.862s)</h5>
+features/prodfeature/MenuLevel.feature:19
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.058s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.047s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enters level entry as 100 (6.056s)</li>
+<li class="collection-item step passed">
+<b>When </b> Click on Submit button (0.669s)</li>
+<li class="collection-item step passed">
+<b>Then </b> validatesuccessful message as &quot;Entry was successfully created.&quot; (0.032s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s4" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Add Valid New Level Entry (16.836s)</h5>
+features/prodfeature/MenuLevel.feature:21
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.054s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.048s)</li>
+<li class="collection-item step passed">
+<b>When </b> User enters level entry as 50000 (6.059s)</li>
+<li class="collection-item step passed">
+<b>When </b> Click on Submit button (0.644s)</li>
+<li class="collection-item step passed">
+<b>Then </b> validatesuccessful message as &quot;Entry was successfully created.&quot; (0.030s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s5" class="modal modal-fixed-footer">
+<div class="modal-content"><h5>Add Invalid New Level Entry (16.952s)</h5>
+features/prodfeature/MenuLevel.feature:31
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> User Clicks on Levels menu (Background) (5.061s)</li>
+<li class="collection-item step passed">
+<b>When </b> User Clicks on Add New button (Background) (5.051s)</li>
+<li class="collection-item step passed">
+<b>When </b> User entered level entry as &quot;%^a56&quot; (6.067s)</li>
+<li class="collection-item step passed">
+<b>When </b> Clicks on Submit button (0.747s)</li>
+<li class="collection-item step passed">
+<b>Then </b> validateunsuccessful message as &quot;Maximum entries reached for this date.&quot; (0.026s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();$('#g0f0s3').modal();$('#g0f0s4').modal();$('#g0f0s5').modal();$('#g0f0s6').modal();$('#g0f1s0').modal();$('#g0f1s1').modal();$('#g0f1s2').modal();$('#g0f1s3').modal();$('#g0f1s4').modal();$('#g0f1s5').modal();$('#g0f1s6').modal();});
+</script>
+<main class="brown lighten-5">
+<div class="row"><div id="overview" class="col s12 brown lighten-5">
+<div class="row">
+<div class="col m4 s12">
+<canvas id="featuresDoughnut" width="400" height="400"></canvas>
+<table id="metaDataFeatures" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+<table id="metaDataScenarios" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<table id="metaData" class="bordered">
+<tbody>
+<tr><th>Total Time</th><td>1m 42.71s</td></tr><tr>
+<th>browser</th>
+<td>Chrome</td>
+</tr><tr>
+<th>environment</th>
+<td>Stage 5</td>
+</tr></tbody>
+</table>
+</div>
+</div></div><div id="features" class="col s12 brown lighten-5 white-text">
+<ul class="featureList collapsible popout" data-collapsible="expandable">
+<li class="feature working">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;Login Feature&nbsp;(8.256s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
+<b>Scenario Outline</b> User clicks on login button without entering details&nbsp;(2.710s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s1">
+<b>Scenario Outline</b> User enters valid email id and invalid password&nbsp;(1.158s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s2">
+<b>Scenario Outline</b> User enters valid email id and invalid password&nbsp;(1.169s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s3">
+<b>Scenario Outline</b> User clicks on Levels menu without logging in&nbsp;(0.735s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s4">
+<b>Scenario Outline</b> User clicks on Reports menu without logging in&nbsp;(0.838s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s5">
+<b>Scenario</b> Visit the Login Page&nbsp;(1.646s)
+</a>
+</li></ul>
+</div>
+</li><li class="feature working">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;MenuLevel Feature&nbsp;(1m 34.46s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s0">
+<b>Scenario Outline</b> Validate Entry Message&nbsp;(10.131s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s1">
+<b>Scenario Outline</b> Add Valid New Level Entry&nbsp;(16.852s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s2">
+<b>Scenario Outline</b> Add Valid New Level Entry&nbsp;(16.824s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s3">
+<b>Scenario Outline</b> Add Valid New Level Entry&nbsp;(16.862s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s4">
+<b>Scenario Outline</b> Add Valid New Level Entry&nbsp;(16.836s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s5">
+<b>Scenario Outline</b> Add Invalid New Level Entry&nbsp;(16.952s)
+</a>
+</li></ul>
+</div>
+</li>
+</ul></div><div id="summary" class="col s12 brown lighten-5">
+<table id="summaryTable" class="bordered brown lighten-1 white-text" width="100%">
+<thead>
+<tr>
+<th class="hide-on-small-only">Feature</th>
+<th>Scenario</th>
+<th class="hide">Tags</th>
+<th>Status</th>
+<th class="hide-on-small-only">Error</th>
+</tr>
+</thead>
+<tbody><tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s0">User clicks on login button without entering details</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s1">User enters valid email id and invalid password</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s2">User enters valid email id and invalid password</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s3">User clicks on Levels menu without logging in</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s4">User clicks on Reports menu without logging in</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s5">Visit the Login Page</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s0">Validate Entry Message</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s1">Add Valid New Level Entry</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s2">Add Valid New Level Entry</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s3">Add Valid New Level Entry</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s4">Add Valid New Level Entry</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+MenuLevel Feature
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s5">Add Invalid New Level Entry</a>
+</td><td class="hide"></td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+</tbody>
+</table></div><div id="errors" class="col s12 brown lighten-5">
+<ul class="errorList collapsible popout" data-collapsible="expandable"></ul></div>
+</div>
+</main><footer class="page-footer brown lighten-4">
+<div class="footer-copyright brown lighten-1">
+<div class="container">
+Happy Reporting!
+<a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+</div>
+</div>
+</footer><script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.8/js/report.builder.min.js"></script></body>
+</html>
